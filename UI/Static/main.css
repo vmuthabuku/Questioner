@@ -271,5 +271,19 @@ body {
 
 .form-container .btn:hover,
 .open-button:hover {
-    opacity: 1;
+    opacity: 4;
+}
+
+.bt {
+    background-color: white;
+    padding: 16px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 93%;
+    margin-bottom: 10px;
+    color: black;
+    border: 2px solid #e7e7e7;
+    font-family: 'Satisfy', cursive;
+    margin-left: 9px;
+    margin-right: 1px;
 }
