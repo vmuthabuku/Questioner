@@ -287,3 +287,41 @@ body {
     margin-left: 9px;
     margin-right: 1px;
 }
+
+.form-contain textarea {
+    width: 100%;
+    margin: 5px 0 22px 0;
+    border: none;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background: #f1f1f1;
+    resize: none;
+    height: 200px;
+    font-size: 22px;
+}
+
+.btnn {
+    background-color: white;
+    padding: 16px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    color: black;
+    border: 2px solid #e7e7e7;
+    font-family: 'Satisfy', cursive;
+}
+
+.form-contain label {
+    font-size: 22px;
+    color: slategray;
+}
+
+.footeer {
+    font-family: 'Satisfy', cursive;
+    font-size: 22px;
+    color: lightslategray;
+    padding-left: 594px;
+}
