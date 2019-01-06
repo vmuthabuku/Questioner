@@ -244,6 +244,10 @@ body {
     font-size: 32px;
 }
 
+.bt i {
+    font-size: 16px;
+}
+
 
 /* Add styles to the form container */
 
@@ -351,6 +355,7 @@ body {
     grid-template-rows: 1fr 6fr 0.5fr;
     grid-row-gap: 1ch;
     height: 100vh;
+    font-family: 'Satisfy', cursive;
 }
 
 .profile {
