@@ -504,3 +504,20 @@ select {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+.but button {
+    background-color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 93%;
+    margin-bottom: 10px;
+    color: black;
+    border: 2px solid #e7e7e7;
+    font-family: 'Satisfy', cursive;
+    margin-left: 9px;
+    margin-right: 1px;
+}
+
+.but button i {
+    font-size: 12px;
+}
