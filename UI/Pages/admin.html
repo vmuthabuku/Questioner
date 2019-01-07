@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="../Static/main.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="profile-container">
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-header"><a href="home.html">Questioner</a></li>
+                <li class="adm"><a href="admin.html">Create Meetup</a></li>
+                <li class="adm"><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+        <div class="admin">
+            <div>
+                <div class="forme">
+                    Create Meetup:
+                    <hr>
+
+                    <form action="/action_page.php">
+                        <label for="Venue">Venue:</label>
+                        <input type="text" id="venue" name="firstname" placeholder="Venue name..">
+                        <label for="Date">Date:</label>
+                        <input type="Date" id="date" name="date" placeholder="date..">
+                        <label for="Speaker">Speaker:</label>
+                        <input type="text" id="speakers" name="lastname" placeholder="Speaker name..">
+                        <label for="Venue">Event information:</label>
+                        <input type="text" id="fname" name="Event information" placeholder="Brief information on event..">
+                        <label for="Registration">Registration:</label>
+                        <input type="text" id="reg" name="Event information" placeholder="Amount in Ksh..">
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </div>
+            <div class="Feed-grid">
+                <div class="ask">Active Meetups:
+
+
+                    <div class="question">React js
+                        <small class="but"><button> delete <i class="fa fa-trash"></i></button></small>
+                    </div>
+                    <div class="question">Android +254
+                        <small class="but"><button> delete <i class="fa fa-trash"></i></button></small>
+                    </div>
+                    <div class="question">Agricultural Expo
+                        <small class="but"><button> delete <i class="fa fa-trash"></i></button></small>
+                    </div>
+                    <div class="question">Drone Engineering
+                        <small class="but"><button> delete <i class="fa fa-trash"></i></button></small>
+                    </div>
+                    <div class="question">Dancing Club Meetup
+                        <small class="but"><button> delete <i class="fa fa-trash"></i></button></small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>copyright <i><strong>Questioner</strong></i> 2018.</p>
+        </div>
+    </div>
+</body>
+
+</html>
