@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    font-family: 'Satisfy', cursive;
+    font-size: 46px;
+    padding-left: 594px;
+    text-decoration: none;
+}
+
+#container {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 5fr 0.5fr;
+    grid-row-gap: 1ch;
+    height: 100vh;
+}
+
+.login-page {
+    background-image: url(bck.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10% 0 0;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: rgba(51, 49, 46, 0.8);
+    max-width: 360px;
+    margin-top: 100px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font-family: 'Satisfy', cursive;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: 'Satisfy', cursive;
+    text-transform: uppercase;
+    outline: 0;
+    background: lightskyblue;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active {
+    background: lightslategray;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.header a {
+    color: lightslategray;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 22px;
+    color: lightslategray;
+}
