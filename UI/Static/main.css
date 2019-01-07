@@ -364,6 +364,7 @@ body {
     grid-gap: 3px;
     grid-template-columns: 5fr 2fr;
     margin: 0;
+    color: slategray;
 }
 
 .card {
@@ -439,5 +440,15 @@ body {
 
 .record {
     box-sizing: border-box;
-    padding-top: 12px;
+    padding-top: 22px;
+}
+
+.question small {
+    font-size: 12px;
+    float: right;
+    padding-top: 10px;
+}
+
+profile {
+    padding-left: 22px;
 }
